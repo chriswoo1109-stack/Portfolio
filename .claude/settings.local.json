@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "PowerShell(Invoke-RestMethod -Uri \"http://localhost:8080/api/github/repos/Soccer_Team_of_PremierLeague\" | Select-Object name, readme | Format-List)",
-      "PowerShell(Invoke-RestMethod -Uri \"http://localhost:8080/api/github/repos\" | ConvertTo-Json -Depth 1)"
-    ]
-  }
-}
